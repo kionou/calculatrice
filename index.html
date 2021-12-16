@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="contenaire">
+        <div class="calculatrice">
+            <div class="ecran">
+            <form >
+                <input type="text" id="ecran1" disabled>
+            </form>
+            </div>
+        </div>
+        <div id="button">
+            <button class="btn" onclick="affiche('1')">1</button>
+            <button class="btn" onclick="affiche('2')">2</button>
+            <button class="btn" onclick="affiche('3')">3</button>
+            <button class="btn" onclick="affiche('4')">4</button>
+            <button class="btn" onclick="affiche('5')">5</button>
+            <button class="btn" onclick="affiche('6')">6</button>
+            <button class="btn" onclick="affiche('7')">7</button>
+            <button class="btn" onclick="affiche('8')">8</button>
+            <button class="btn" onclick="affiche('9')">9</button>
+            <button class="btn" onclick="affiche('0')">0</button>
+            <button class="btn" onclick="affiche('+')">+</button>
+            <button class="btn" onclick="affiche('-')">-</button>
+            <button class="btn" onclick="affiche('*')">*</button> 
+            <button class="btn" onclick="affiche('/')">/</button>
+            <button class="btn" onclick="affiche('.')">.</button>
+            <button class="btn" onclick="agal('')">=</button>
+            <button class="btn" onclick="clear()">DEL</button>
+
+
+        </div>
+
+    </div>
+    <script src="./calcul.js"></script>
+</body>
+</html>
